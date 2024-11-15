@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Record Form</title>
+    <link rel="stylesheet" href="../css_files/MedicalRecordCSS.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Medical Record Form</h2>
+        <form action="/submit-record" method="POST">
+            <!-- Patient's Information Section -->
+            <fieldset>
+                <legend>Patient Information</legend>
+
+                <label for="patient-name">Patient Name:</label>
+                <input type="text" id="patient-name" name="patient-name" required><br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+
+                <label for="contact-info">Contact Information:</label>
+                <input type="text" id="contact-info" name="contact-info" placeholder="Phone number or email" required><br><br>
+
+                <label for="insurance-details">Insurance Details:</label>
+                <input type="text" id="insurance-details" name="insurance-details" required><br><br>
+            </fieldset>
+
+            <!-- Allergies Section -->
+            <fieldset>
+                <legend>Allergies</legend>
+
+                <label for="allergies">List any allergies:</label><br>
+                <textarea id="allergies" name="allergies" rows="4" placeholder="e.g., penicillin, peanuts"></textarea><br><br>
+            </fieldset>
+
+            <!-- Medical History Section -->
+            <fieldset>
+                <legend>Medical History</legend>
+
+                <label for="surgeries">Surgeries (if any):</label><br>
+                <textarea id="surgeries" name="surgeries" rows="4" placeholder="e.g., appendectomy, knee surgery"></textarea><br><br>
+
+                <label for="illnesses">Illnesses (if any):</label><br>
+                <textarea id="illnesses" name="illnesses" rows="4" placeholder="e.g., diabetes, asthma"></textarea><br><br>
+
+                <label for="family-medical-history">Family Medical History:</label><br>
+                <textarea id="family-medical-history" name="family-medical-history" rows="4" placeholder="e.g., heart disease, cancer"></textarea><br><br>
+            </fieldset>
+
+            <button type="submit">Submit Record</button>
+        </form>
+    </div>
+
+</body>
+</html>

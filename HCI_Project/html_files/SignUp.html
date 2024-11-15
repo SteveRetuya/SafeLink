@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeLink Website</title>
+    <link href="../css_files/SignUp.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <section>
+     <img src="../pictures/safelink-logo.png" style="margin-top: 30px;">
+    <div id="login_wrapper">
+        <div id="login">
+            <h1>Register User</h1>
+            <div id="register_form">
+                <form class="form" name="form_register" id="form_register" method="post">
+                    <div class="form_row">
+                        <label for="textemail">Email</label>
+                        <input type="email" name="textemail" id="textemail" class="register-email required" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form_row">
+                        <label for="textpassword">Password</label>
+                        <input type="password" name="textpassword" id="textpassword" class="register-password required" placeholder="Enter your password" required>
+                    </div>
+                   <div class="form_row">
+                        <label for="confirm_password">Confirm Password</label>
+                         <input type="password" name="confirm_password" id="confirm_password" class="confirm-password" placeholder="Confirm your password" required>
+                    </div>
+                     <div class="form_row">
+                            <label for="sex">Sex</label>
+                            <select name="sex" id="sex" class="login-sex required">
+                                <option value="M">M</option>
+                                <option value="F">F</option>
+                            </select>
+                        </div>
+                        <!-- Address input field -->
+                        <div class="form_row">
+                            <label for="address">Address</label>
+                            <input type="text" name="address" id="address" class="login-address required" placeholder="Enter your address" required>
+                        </div>
+                    <div class="form_row">
+                        <input type="submit" value="Login" name="buttonlogin" class="login-button">
+                    </div>
+                </form>
+                <br>
+                <div align="left">
+                    <a href="../MainSite.html">Already have an account?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
