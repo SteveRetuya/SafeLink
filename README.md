@@ -22,10 +22,10 @@ Before doing the installation make sure you have downloaded the zip folder of th
    ![macos-mamp](https://github.com/user-attachments/assets/030c61a3-8b4c-42e7-9277-0cab87f3bd7c)
 
 
-5. Go to your browser and type "localhost/phpmyadmin"
+5. Go to your browser and type "localhost/phpmyadmin" \
 ![phpmyadmin-localhost](https://github.com/user-attachments/assets/c08383ee-3130-4491-b5b2-30bbf555ffa0)
 
-6. Click New at the side-panel on the left
+6. Click New at the side-panel on the left \
 ![toclick-newphp](https://github.com/user-attachments/assets/1879a251-ea53-4006-8fe8-86a56c129253)
 
 7. Type 'safelink' on the database name and click create
