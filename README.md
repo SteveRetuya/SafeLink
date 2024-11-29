@@ -15,4 +15,10 @@ SafeLink is a hardware and software combo where the user can alert emergency ser
    For Windows: Click Start on Module Apache and MySQL \
    For MAMP: Click Start
 
-4. Go to your browser and type "localhost/index.php"
+4. Go to your browser and type "localhost/phpmyadmin"
+
+5. Click Import
+
+6. Click Choose File and Upload the file from sql-toimport
+
+7. Click Import
