@@ -3,6 +3,8 @@ SafeLink is a hardware and software combo where the user can alert emergency ser
 
 ## Installation
 
+Before doing the installation make sure you have downloaded the zip folder of this project.
+
 1. Install a Local Server in your machine \
    For Windows (XAMPP): https://www.apachefriends.org/ \
    For MacOs (MAMP): https://www.mamp.info/en/mac/
