@@ -25,21 +25,26 @@ Before doing the installation make sure you have downloaded the zip folder of th
 5. Go to your browser and type "localhost/phpmyadmin"
 ![phpmyadmin-localhost](https://github.com/user-attachments/assets/c08383ee-3130-4491-b5b2-30bbf555ffa0)
 
+6. Click New at the side-panel on the left
+![toclick-newphp](https://github.com/user-attachments/assets/1879a251-ea53-4006-8fe8-86a56c129253)
 
-6. Click Import
+7. Type 'safelink' on the database name and click create
+![toclick-create](https://github.com/user-attachments/assets/c8cebaad-b0ed-46ab-baea-d749f3596976)
+
+8. Click Import
 ![phpToImport](https://github.com/user-attachments/assets/95bffcae-85ae-4788-ae60-fdec61504c79)
 
 
-7. Click Choose File and Upload the file from sql-toimport
+9. Click Choose File and Upload the file from sql-toimport
 ![choosefile-phpmyadmin](https://github.com/user-attachments/assets/7ec49b36-ad05-4bcd-8724-3f8046663a4e)
 
 ![phpToImport-file](https://github.com/user-attachments/assets/becb80f4-8021-409b-8d05-9660fb6eff68)
 
 
-9. Click Import
+10. Click Import
   ![phpToImport-toclick](https://github.com/user-attachments/assets/ec0b3a8f-252c-465b-84db-35df84770767)
 
-10. Go to your browser and type "localhost/index.php"
+11. Go to your browser and type "localhost/index.php"
 
     
  
