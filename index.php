@@ -20,6 +20,11 @@
     <div id="login_wrapper">
         <div id="login">
             <h1>User Login</h1>
+
+            <!-- Display messages -->
+            <p class="errmsg"><?php if (isset($message)) echo $message; ?></p>
+            <br />
+
             <div id="login_form">
                 <form class="form" name="form_login" id="form_login" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
                     <div class="form_row">

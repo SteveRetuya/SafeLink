@@ -26,9 +26,10 @@
         }
 
         button {
-            background-color: #4CAF50; /* Green background */
+            background-color: #39d3d8; 
             border: none;
             color: white;
+            font-weight: 800;
             padding: 15px 32px;
             text-align: center;
             text-decoration: none;

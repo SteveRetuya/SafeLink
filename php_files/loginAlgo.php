@@ -37,14 +37,14 @@
 
                 if($email == "admin@gmail.com"){ // Checks if the email is an admin
                     $stmt->close();
-                    header("Location: ../html_files/MyMap.html"); // Goes to the Map
+                    header("Location: ../html_files/MyMap.php"); // Goes to the Map
                 } else { // Goes to the config
                     $stmt->close();
                     include_once('checkNewUser.php'); // Redirect User to homepage if logged in successfully
                 }
                 
             } else {
-                echo "<h3>Login Error. </h3>";
+                $message = "Error: You entered that does not match or exist in our database. Try Again.";
             }
         } else {
             

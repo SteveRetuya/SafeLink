@@ -23,6 +23,8 @@ section {
     height: 100%;
 }
 
+
+
 /* Logo image styling */
 #logo {
     margin-bottom: 8px; /* Space between logo and login form */
@@ -57,6 +59,7 @@ h1 {
     color: #333;
 }
 
+
 /* Form row styling */
 .form_row {
     margin-bottom: 15px;
@@ -89,4 +92,10 @@ input[type="submit"] {
 /* Button hover effect */
 input[type="submit"]:hover {
     background-color: #808080;
+}
+
+.errmsg{
+    color: #808080;
+    text-align: center;
+
 }
